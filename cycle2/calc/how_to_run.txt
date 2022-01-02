@@ -1,0 +1,5 @@
+
+    lex exp3-1.l
+    yacc -d exp3-1.y
+    gcc lex.yy.c y.tab.c
+    ./a.out

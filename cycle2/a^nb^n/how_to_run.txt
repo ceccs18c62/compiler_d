@@ -1,0 +1,5 @@
+lex anbn.l
+yacc anbn.y
+gcc lex.yy.c y.tab.c
+
+./a.out

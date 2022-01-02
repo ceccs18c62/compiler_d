@@ -1,0 +1,4 @@
+
+    lex exp2.l
+    gcc lex.yy.c
+    ./a.out < code.c
