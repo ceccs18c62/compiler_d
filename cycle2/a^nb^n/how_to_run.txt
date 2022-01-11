@@ -1,5 +1,5 @@
 lex anbn.l
-yacc anbn.y
+yacc -d anbn.y
 gcc lex.yy.c y.tab.c
 
 ./a.out
